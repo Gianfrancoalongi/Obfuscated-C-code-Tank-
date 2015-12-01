@@ -30,13 +30,13 @@ printf("%c",*(d+(2<<1))); for(argc = 0x00; argc < ((0x02)<<2);argc++){putc(*(d+(
 {;;;;;;};argc=0;while(argc<0x09){putc(' ',stdout);argc++;} argc = 0; while( ( argc&0xFF) < (
 0x007)){argc++;putc(*(d+0x01),stdout);}putc(*(d+(strlen(d) -1)),stdout);putc( '_' ,stdout);putc
 ('_',stdout);putc('_',stdout);putc('/',stdout);putc('_',stdout);for(argc=0x00;argc<0x02;argc++){
-putc(*(d+1),stdout);}                                                       putc('\n',      stdout);argc=0;
-while(    argc<8)      {putc(' ',      stdout)     ;argc++;}     putc(*(d   +2),stdout     );argc=
-  0;while(argc<        0x11){         argc++;    putc(*(d       +3),stdout   );}putc(*     (d+7),
-       stdout);putc       ('\n',      stdout       );argc       =0;while(    argc<9)       {putc(
-            *(d+3),                                                                       stdout);
-                   argc++                        ;}putc(*                             (d+7),
-                        stdout);                  argc=0;                           while(
-                              argc<15){          argc++;                     putc('!',stdout);
+putc(*(d+1),stdout);}                                                          putc('\n',      stdout);argc=0;
+while(    argc<8)         {putc(' ',      stdout)     ;argc++;}     putc(*(d   +2),stdout     );argc=
+  0;while(argc<           0x11){          argc++;     putc(*(d     +3),stdout   );}putc(*     (d+7),
+       stdout);putc       ('\n',          stdout      );argc       =0;while(    argc<9)       {putc(
+            *(d+3),                                                                         stdout);
+                   argc++                         ;}putc(*                                (d+7),
+                        stdout);                   argc=0;                             while(
+                              argc<15){           argc++;                  putc('!',stdout);
                                 }putc('/',stdout);printf("\n\t\t%s\n",TANK);return 0;}
 
